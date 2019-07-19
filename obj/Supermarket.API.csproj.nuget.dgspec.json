@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\775421\\Documents\\git\\Supermarket.API\\Supermarket.API.csproj": {}
+    "C:\\Users\\775421\\Documents\\Git\\Supermarket.API\\Supermarket.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\775421\\Documents\\git\\Supermarket.API\\Supermarket.API.csproj": {
+    "C:\\Users\\775421\\Documents\\Git\\Supermarket.API\\Supermarket.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\775421\\Documents\\git\\Supermarket.API\\Supermarket.API.csproj",
+        "projectUniqueName": "C:\\Users\\775421\\Documents\\Git\\Supermarket.API\\Supermarket.API.csproj",
         "projectName": "Supermarket.API",
-        "projectPath": "C:\\Users\\775421\\Documents\\git\\Supermarket.API\\Supermarket.API.csproj",
+        "projectPath": "C:\\Users\\775421\\Documents\\Git\\Supermarket.API\\Supermarket.API.csproj",
         "packagesPath": "C:\\Users\\775421\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\775421\\Documents\\git\\Supermarket.API\\obj\\",
+        "outputPath": "C:\\Users\\775421\\Documents\\Git\\Supermarket.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Users\\775421\\Documents\\dotnet-sdk-2.2.300-win-x86\\sdk\\NuGetFallbackFolder"
@@ -39,6 +39,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",
